@@ -4,6 +4,6 @@
     "version": "1.0.0",
     "require": {
         "php": ">=5.3.0",
-        "timenomad/oauth2-php-closed-source": "1.*"
+        "timenomad/oauth2-php-closed-source": "dev-master"
     }
 }
