@@ -1,9 +1,6 @@
 {
     "name": "timenomad/php-stripe-oauth",
     "description": "PHP library which helps perform an OAuth2 flow for Stripe.",
-    "version": "1.0.0",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": ">=5.3.0",
         "timenomad/oauth2-php-closed-source": "dev-master"
