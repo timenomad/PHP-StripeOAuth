@@ -342,7 +342,7 @@
 
                 // if it bailed
                 if (isset($this->_body->code)) {
-                    $body = $this->_body->message;
+                    $body = $this->_body->message . $this->_body->body;
                     throw new Exception(
                         'Error making StripeOAuth request: (' .
                         ($this->_body->code) . ') ' . ($body)
